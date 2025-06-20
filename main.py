@@ -16,7 +16,7 @@ from matplotlib.ticker import LinearLocator, FormatStrFormatter
 Read csv file with ASTR data  
     csv file consists of stock data of 'ASTR'  
 '''  
-astr = pd.read_csv('ASTR.csv')  
+astr = pd.read_csv('data/ASTR.csv')  
 '''  
 Determining sigma  
     daily_sd is standart deviation of percent changing  
