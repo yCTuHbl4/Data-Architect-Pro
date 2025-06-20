@@ -1,0 +1,291 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dineug/erd-editor/main/json-schema/schema.json",
+  "version": "3.0.0",
+  "settings": {
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": -5,
+    "scrollLeft": -18,
+    "zoomLevel": 1,
+    "show": 511,
+    "database": 16,
+    "databaseName": "",
+    "canvasType": "@dineug/erd-editor/builtin-schema-sql",
+    "language": 1,
+    "tableNameCase": 4,
+    "columnNameCase": 2,
+    "bracketType": 1,
+    "relationshipDataTypeSync": true,
+    "relationshipOptimization": false,
+    "columnOrder": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "maxWidthComment": -1,
+    "ignoreSaveSettings": 0
+  },
+  "doc": {
+    "tableIds": [
+      "cgDC3E_fphSRZ-YugZfM-"
+    ],
+    "relationshipIds": [],
+    "indexIds": [],
+    "memoIds": []
+  },
+  "collections": {
+    "tableEntities": {
+      "k7rz091aHZ9oTLUuJ2SLr": {
+        "id": "k7rz091aHZ9oTLUuJ2SLr",
+        "name": "",
+        "comment": "",
+        "columnIds": [],
+        "seqColumnIds": [],
+        "ui": {
+          "x": 221,
+          "y": 167,
+          "zIndex": 2,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1750294622777,
+          "createAt": 1750294622777
+        }
+      },
+      "cgDC3E_fphSRZ-YugZfM-": {
+        "id": "cgDC3E_fphSRZ-YugZfM-",
+        "name": "astr",
+        "comment": "Таблица цен ASTR",
+        "columnIds": [
+          "jvl7iu6fF2_au3LFepNtx",
+          "ZqkUTkmvlUuFjWiB1ml9W",
+          "KL8pj9qvrswN1YsYR1ZAa",
+          "qzJy8ojz-ND3XJ7ADmAxi",
+          "ybwaofIVt3oyXEO8HWBCg",
+          "F2RHEdfeNkOD-wcf4nT4G",
+          "6x_Yb_43VdP5Cf2hZtrOw",
+          "8QhUDsTHTk3F2zdd6NU6U"
+        ],
+        "seqColumnIds": [
+          "jvl7iu6fF2_au3LFepNtx",
+          "ZqkUTkmvlUuFjWiB1ml9W",
+          "KL8pj9qvrswN1YsYR1ZAa",
+          "qzJy8ojz-ND3XJ7ADmAxi",
+          "ybwaofIVt3oyXEO8HWBCg",
+          "F2RHEdfeNkOD-wcf4nT4G",
+          "6x_Yb_43VdP5Cf2hZtrOw",
+          "8QhUDsTHTk3F2zdd6NU6U"
+        ],
+        "ui": {
+          "x": 212,
+          "y": 171,
+          "zIndex": 2,
+          "widthName": 60,
+          "widthComment": 103,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1750295817910,
+          "createAt": 1750294633535
+        }
+      }
+    },
+    "tableColumnEntities": {
+      "jvl7iu6fF2_au3LFepNtx": {
+        "id": "jvl7iu6fF2_au3LFepNtx",
+        "tableId": "cgDC3E_fphSRZ-YugZfM-",
+        "name": "base_uid",
+        "comment": "Индификатор записи",
+        "dataType": "int8",
+        "default": "",
+        "options": 15,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 119,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1750295937589,
+          "createAt": 1750294736998
+        }
+      },
+      "ZqkUTkmvlUuFjWiB1ml9W": {
+        "id": "ZqkUTkmvlUuFjWiB1ml9W",
+        "tableId": "cgDC3E_fphSRZ-YugZfM-",
+        "name": "tradedate",
+        "comment": "Дата торгов",
+        "dataType": "date",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 68,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1750294922755,
+          "createAt": 1750294737209
+        }
+      },
+      "KL8pj9qvrswN1YsYR1ZAa": {
+        "id": "KL8pj9qvrswN1YsYR1ZAa",
+        "tableId": "cgDC3E_fphSRZ-YugZfM-",
+        "name": "open",
+        "comment": "Цена открытия",
+        "dataType": "real",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 85,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1750295507117,
+          "createAt": 1750294737402
+        }
+      },
+      "qzJy8ojz-ND3XJ7ADmAxi": {
+        "id": "qzJy8ojz-ND3XJ7ADmAxi",
+        "tableId": "cgDC3E_fphSRZ-YugZfM-",
+        "name": "low",
+        "comment": "Наименьшия цена",
+        "dataType": "real",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 104,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1750295507822,
+          "createAt": 1750294737579
+        }
+      },
+      "ybwaofIVt3oyXEO8HWBCg": {
+        "id": "ybwaofIVt3oyXEO8HWBCg",
+        "tableId": "cgDC3E_fphSRZ-YugZfM-",
+        "name": "high",
+        "comment": "Наибольшая  цена",
+        "dataType": "real",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 105,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1750295508544,
+          "createAt": 1750294737775
+        }
+      },
+      "F2RHEdfeNkOD-wcf4nT4G": {
+        "id": "F2RHEdfeNkOD-wcf4nT4G",
+        "tableId": "cgDC3E_fphSRZ-YugZfM-",
+        "name": "numtrades",
+        "comment": "Количество сделок",
+        "dataType": "int",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 107,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1750295509607,
+          "createAt": 1750294738252
+        }
+      },
+      "6x_Yb_43VdP5Cf2hZtrOw": {
+        "id": "6x_Yb_43VdP5Cf2hZtrOw",
+        "tableId": "cgDC3E_fphSRZ-YugZfM-",
+        "name": "close",
+        "comment": "Цена закрытия",
+        "dataType": "real",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 84,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1750295510433,
+          "createAt": 1750295265825
+        }
+      },
+      "8QhUDsTHTk3F2zdd6NU6U": {
+        "id": "8QhUDsTHTk3F2zdd6NU6U",
+        "tableId": "cgDC3E_fphSRZ-YugZfM-",
+        "name": "waprice",
+        "comment": "Средневзвешенная цена",
+        "dataType": "real",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 139,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1750295511177,
+          "createAt": 1750295266381
+        }
+      }
+    },
+    "relationshipEntities": {},
+    "indexEntities": {
+      "D3xzsdCYPRWK_OlYF5Wlu": {
+        "id": "D3xzsdCYPRWK_OlYF5Wlu",
+        "name": "",
+        "tableId": "cgDC3E_fphSRZ-YugZfM-",
+        "indexColumnIds": [],
+        "seqIndexColumnIds": [],
+        "unique": false,
+        "meta": {
+          "updateAt": 1750295858399,
+          "createAt": 1750295858399
+        }
+      },
+      "-LuwWwgfwvpKYAFBpW4VQ": {
+        "id": "-LuwWwgfwvpKYAFBpW4VQ",
+        "name": "",
+        "tableId": "cgDC3E_fphSRZ-YugZfM-",
+        "indexColumnIds": [],
+        "seqIndexColumnIds": [],
+        "unique": false,
+        "meta": {
+          "updateAt": 1750295859602,
+          "createAt": 1750295859602
+        }
+      }
+    },
+    "indexColumnEntities": {},
+    "memoEntities": {}
+  }
+}
